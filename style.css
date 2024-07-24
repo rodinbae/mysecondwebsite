@@ -1,0 +1,120 @@
+/* body içindeki ilk ana başlık */
+#f_header{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:25px;
+    color:rgb(35, 9, 184);
+    text-align: center;
+}
+
+#s_header{
+    color: rgb(35, 9, 184);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-indent: 9px;
+    
+}
+#t_header{
+    color: rgb(35, 9, 184);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-indent: 10px;
+}
+#forth_header{
+    color: rgb(35, 9, 184);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-indent: 9px;
+
+}
+
+#contact_form_header{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:25px;
+    color:rgb(35, 9, 184);
+    text-align: center;
+}
+
+#contactbox{
+    position: relative;
+    left:2%;
+}
+
+table{
+    padding:100px;
+}
+
+
+*{
+    background-color: powderblue;
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+img{
+    width: 5%;
+    height: auto;
+}
+
+.col-1{width: 8.33%;}
+.col-2{width:16.66%;}
+.col-3{width: 25%;}
+.col-4{width:33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+@media screen and (max-width:750px){
+    [class*="col-"]{
+        width: 100%;
+    }
+}
+
+[class*="col-"]{
+float:left;
+padding:15px;
+border: 1px red solid;
+}
+
+.row::after{
+    content:"";
+    clear:both;
+    display:table;
+}
+
+
+#top_part{
+    background-color: darkblue;
+}
+
+
+#top_part ul li {
+    position: relative;
+    left:40%;
+    text-align: center;
+    text-decoration: none;
+    list-style-type:none;
+    float:left;
+    padding:10px;
+    background-color: darkblue;
+}
+
+#top_part ul li a{
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    color:white;
+    background-color: darkblue;
+}
+
+#top_part ul li a:hover{
+    text-decoration: underline;
+    font-size: 20px;
+}
